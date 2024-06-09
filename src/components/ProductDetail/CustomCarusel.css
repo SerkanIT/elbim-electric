@@ -1,0 +1,103 @@
+/* Carousel.scss */
+
+.carousel-container1 {
+
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-track {
+
+    width: 416px;
+    height: 554px;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.carousel-slide {
+    flex: 0 0 100%;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-dots {
+    max-height: 554px;
+    overflow: scroll;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+
+    align-items: flex-start;
+}
+.carousel-dots::-webkit-scrollbar{
+    display: none !important;
+}
+
+.carousel-dot {
+    width: 100px;
+    height: 100px;
+    background-color: #bbb;
+    margin: 0 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.carousel-dot.active {
+   border: 1px solid black;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute !important;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+.main-carusel{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.main-track{
+
+    position: relative !important;
+
+    overflow: hidden;
+}
+@media (max-width: 980px) {
+    .main-carusel{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+}
+@media (max-width: 538px) {
+    .carousel-dots{
+        display: none;
+    }
+    .carousel-track{
+        width: auto;
+        height: auto;
+    }
+}
