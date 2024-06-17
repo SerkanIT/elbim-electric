@@ -1,5 +1,15 @@
+body{
+  background-color: silver;
+  width: 100%;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .navbar {
   margin-top: 10px;
+  
 
   .upper_nav {
     display: flex;
@@ -13,9 +23,9 @@
     font-weight: 500;
     display: flex;
     flex-direction: column;
-    padding: 10px 15px; // Add padding for better click area
-    border-radius: 5px; // Rounded corners
-    transition: all 0.3s ease; // Smooth transition for hover effects
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
 
     .line {
       width: 0;
@@ -23,44 +33,45 @@
       background: #000;
       transition: width 0.3s linear;
     }
-
+    
     &.active {
       font-weight: 600;
-      background-color: #555; // Active state background color (darker gray)
-      color: white; // Active state text color
+      background-color: #333;
+      color: white;
     }
-
+    
     &:hover {
       font-weight: 600;
-      background-color: #555; // Hover state background color (darker gray)
-      color: white; // Hover state text color
+      background-color: #333;
+      color: white;
       .line {
-        width: 0; // Remove underline on hover
+        width: 0;
       }
     }
   }
-
+  
   .search {
     position: relative !important;
     max-width: 350px;
     width: 100%;
-    border-radius: 5px; // Rounded corners
-
+    border-radius: 5px;
+    
     &.open {
       height: 40px !important;
-
+      
       .ant-input-affix-wrapper {
         border-radius: 5px 0 0 0;
       }
-
+      
       .ant-btn {
         border-bottom-right-radius: 0 !important;
       }
     }
-
+    
     .search-input {
+      background-color: darkgoldenrod !important;
       height: 40px !important;
-      border-radius: 5px; // Rounded corners
+      border-radius: 5px;
     }
 
     .search_result_list {
@@ -69,7 +80,7 @@
       height: 0;
       max-height: 400px;
       overflow: auto;
-      background-color: #fff; // Background color for search results
+      background-color: #fff;
       border: 1px solid hsla(220, 4%, 48%, 0.3);
       border-radius: 0 0 12px 12px;
       box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -174,9 +185,9 @@
       margin-bottom: 20px;
       text-decoration: none !important;
       color: black;
-      padding: 10px; // Add padding for better click area
-      border-radius: 5px; // Rounded corners
-      transition: all 0.3s ease; // Smooth transition for hover effects
+      padding: 10px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
 
       .line {
         width: 0;
@@ -187,23 +198,26 @@
 
       &.active {
         font-weight: 600;
-        background-color: #555; // Active state background color (darker gray)
-        color: white; // Active state text color
+        background-color: #555;
+        color: white;
       }
 
       &:hover {
         font-weight: 600;
-        background-color: #555; // Hover state background color (darker gray)
-        color: white; // Hover state text color
+        background-color: #555;
+        color: white;
         .line {
-          width: 0; // Remove underline on hover
+          width: 0;
         }
       }
     }
   }
 
-  .navLinks {
+  .nav-link {
     display: flex;
     flex-direction: column;
+    gap: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
   }
 }

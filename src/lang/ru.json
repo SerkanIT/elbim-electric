@@ -1,9 +1,8 @@
-
 {
-"Biz haqimizda": "O нас",
-  "Mahsulotlar": "Продукты",
-  "Buyurtma berish": "Заказать",
-  "Aloqa": "Контакт",
+  "BUYURTMA BERISH": "ЗАКАЗАТЬ",
+  "MAHSULOTLAR": "ПРОДУКТЫ",
+  "BIZ HAQIMIZDA": "О НАС",
+  "ALOQA": "КОНТАКТ",
   "Maxsulotni izlash": "Поиск продукта",
   "Biz eng so'nggi texnologiya mahsulotlaridan foydalanamiz va tajribali, samimiy xodimlarimiz bilan sektorda yetakchi o'rinni egallab turibmiz. Biz har doim mijozlar ehtiyojini qondirishni birinchi o'ringa qo'yadigan prinsipimiz bilan sizga xizmat qilishdan mamnunmiz. Iltimos, biz bilan bog'lanishda ikkilanmang.": "Мы используем новейшие технологические продукты и\n                            лидирующие позиции в отрасли с нашим опытным и дружелюбным персоналом\n                            мы занимаем. Мы всегда ставим удовлетворение клиента на первое место\n                            Мы рады служить вам с нашим принципом. Пожалуйста, не стесняйтесь обращаться к нам.",
   "Manzil": "Адрес",
@@ -25,7 +24,7 @@
   "Bosh sahifa": "Домашняя страница",
   "Hammasi": "Все",
   "Sotuv bo'limi": "Отдел продаж",
-  "Xizmat ko'rsatish sohalarimiz":"Наши зоны обслуживания",
+  "Xizmat ko'rsatish sohalarimiz": "Наши зоны обслуживания",
   "Mirobod tumani, Farg'ona yo'li 222/4 O'zbekiston Toshkent": "Мирабадский район, улица Фергана 222/4 Узбекистан Ташкент",
   "Yetkazib berish mavjud": "Доставка есть",
   "Yetkazib berish mavjud emas": "Доставка нет",

@@ -1,4 +1,3 @@
-
 import i18n from "./i18n";
 import {Select} from "antd";
 
@@ -31,12 +30,13 @@ const LanguageSwitcher = () => {
                 const options = {[
                 {
                     value: 'ru',
-                    label: 'Русский',
+                    label: 'Русский ',
                 },
                 {
                     value: 'uz',
                     label: "O'zbek",
                 },
+                
                 ]}
             />
         </div>

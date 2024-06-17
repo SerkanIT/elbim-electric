@@ -31,7 +31,7 @@ const Contact = () => {
                   {t(
                     "Mirobod tumani, Farg'ona yo'li 222/4 O'zbekiston Toshkent"
                   )}
-                </a>{" "}
+                </a>
               </li>
               <li style={{ display: "flex" }}>
                 <div>
@@ -39,10 +39,10 @@ const Contact = () => {
                   <span className="footer-icon">
                     <i
                       className="bx bxs-phone"
-                      style={{ marginRight: 5, color: "green" }}
+                      style={{ marginRight: 10, color: "green" }}
                     ></i>
                   </span>
-                  <a href="tel:+998 93 555-13-54"> +998 (93) 555-13-54</a>
+                  <a href="tel:+998 93 555 06-55">+998 (93) 555 06-55</a>
                   <br />
                   <span className="footer-icon">
                     <i
@@ -50,7 +50,13 @@ const Contact = () => {
                       style={{ marginRight: 5, color: "green" }}
                     ></i>
                   </span>
-                  <a href="tel:+998 78 120-31-72"> +998 (78) 120-31-72</a>
+                  <a href="tel:+998 93 555 13-54"> +998 (93) 555-13-54</a>{" "}
+                  <br />
+                  <i
+                    className="bx bxs-phone"
+                    style={{ marginRight: 9, color: "green", padding: "3px" }}
+                  ></i>{" "}
+                  <a href="tel:+998 78 120 31-72">+998 (78) 120-31-72</a>
                   <li className="office">{t("Avtomatlashtirish bo'limi")}</li>
                   <span className="footer-icon">
                     <i
@@ -58,7 +64,7 @@ const Contact = () => {
                       style={{ marginRight: 5, color: "green" }}
                     ></i>
                   </span>
-                  <a href="tel:998 (93) 555 13 58">+998 (93) 555-13-58</a>
+                  <a href="tel:998 (93) 555 13-54">+998 (93) 555-13-54</a>
                   <br />
                   <span className="footer-icon">
                     <i
@@ -94,17 +100,16 @@ const Contact = () => {
                 </div>
               </li>
               <li>
-              
-                  <div>
-                    <i
-                      className="bx bx-envelope"
-                      style={{ marginRight: 5, color: "orange",  }}
-                    ></i>
-                    <a href="mailto:info@elbimelektronik.uz">
-                      {" "}
-                      info@elbimelektronik.uz
-                    </a>
-                  </div>
+                <div>
+                  <i
+                    className="bx bx-envelope"
+                    style={{ marginRight: 5, color: "orange" }}
+                  ></i>
+                  <a href="mailto:info@elbimelektronik.uz">
+                    {" "}
+                    info@elbimelektronik.uz
+                  </a>
+                </div>
               </li>
             </ul>
           </div>
